@@ -8,6 +8,7 @@ const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 const connection = new Connection("https://api.devnet.solana.com");
 
 
+
 (async () => {
     try {
         // We're going to claim 2 devnet SOL tokens
