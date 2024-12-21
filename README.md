@@ -1,18 +1,23 @@
-# Solana Airdrop Project
+# Solana Development Project
 
-A simple project to demonstrate Solana token airdrops.
+Transaction Link: [https://explorer.solana.com/tx/5EzUk3NHEk5xsanDhkdqQyrX9rofpQWNQc6a6QLmkrKivtVw7XEGJXBNJ9xaNaN8NGUpNz5CSpAcbrcYgtn8Yoq4?cluster=devnet] (Add the link from your last successful transaction)
 
-## Description
+## Project Files Overview
 
-This project provides functionality to request and manage Solana token airdrops on the development network.
+- `keygen.ts`: Generates a new Solana wallet keypair and displays the public and secret keys.
+  Run: `npm run keygen`
 
-## Prerequisites
+- `airdrop.ts`: Requests 2 SOL tokens from the Devnet faucet to your wallet.
+  Run: `npm run airdrop`
 
-- Node.js (v14 or higher)
-- Solana CLI tools
-- A Solana wallet
+- `transfer.ts`: Transfers 0.01 SOL from your wallet to a specified recipient address on Devnet.
+  Run: `npm run transfer`
 
-## Installation
+- `enroll.ts`: Completes enrollment in the WBA prerequisite program by submitting your GitHub username.
+  Run: `npm run enroll`
 
-1. Clone this repository
-2. Install dependencies:
+## Setup and Installation
+
+1. Install dependencies:
+```sh
+npm install

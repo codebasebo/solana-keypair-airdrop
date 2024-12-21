@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@coral-xyz/anchor": "0.30.0",
+    "rpc-websockets": "7.11.0"
+  }
+}
